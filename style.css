@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'get_schwiftyregular';
+    font-family: 'getSchwifty';
     src:
         url('getSchwifty.ttf') format('truetype'),
         url('getschwifty-webfont.woff2') format('woff2'),
@@ -9,7 +9,7 @@
 }
 
 html {
-  font-family: 'get_schwiftyregular', sans-serif;
+  font-family: 'getSchwifty', sans-serif;
   font-size: 10px;
   background: url("balls.PNG");
   background-size: cover;
