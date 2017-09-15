@@ -1,13 +1,18 @@
 html {
   font-size: 10px;
-  /*background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;*/
   background: url("balls.PNG");
   background-size: cover;
 }
+
 body,html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+h1 {
+  font-size:60px;
+  color: white;
 }
 
 .keys {
@@ -48,4 +53,8 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
+}
+
+.pressed{
+  background: url("balls2.PNG");
 }
