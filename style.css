@@ -1,4 +1,15 @@
+@font-face {
+    font-family: 'get_schwiftyregular';
+    src:
+        url('getSchwifty.ttf') format('truetype'),
+        url('getschwifty-webfont.woff2') format('woff2'),
+        url('getschwifty-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
+  font-family: 'get_schwiftyregular', sans-serif;
   font-size: 10px;
   background: url("balls.PNG");
   background-size: cover;
@@ -7,12 +18,17 @@ html {
 body,html {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  color: #42f4e2;
 }
 
 h1 {
   font-size:60px;
-  color: white;
+}
+
+a {
+  font-size:60px;
+  color: #42f4e2;
+  text-decoration: none;
 }
 
 .keys {
@@ -55,6 +71,14 @@ kbd {
   color: #ffc600;
 }
 
-.pressed{
+.pressed {
   background: url("balls2.PNG");
+}
+
+.button-before {
+  visibility: hidden;
+}
+
+.button-after {
+  visibility: visible;
 }
